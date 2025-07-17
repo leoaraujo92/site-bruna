@@ -1,0 +1,34 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.dark-green{
+    color: #486668;
+}
+
+#menu-principal{
+    background-color: #EFEAE6;
+    height: 7.5rem;
+}
+
+#nav-menu-principal > li > a{
+    color: #486668;
+}
+
+#nav-menu-principal > li > a:hover{
+    color: #8A9A97;
+}
+
+#header{
+    background-color: #486668;
+    height: 750px;
+}
+
+/*BOTÃO*/
+#cta-btn{
+    background-color: #B69493;
+    max-width: 290px;
+    max-height: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
