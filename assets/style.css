@@ -8,7 +8,7 @@
 
 #menu-principal{
     background-color: #EFEAE6;
-    height: 7.5rem;
+    height: 4.5rem;
 }
 
 #nav-menu-principal > li > a{
@@ -21,7 +21,7 @@
 
 #header{
     background-color: #486668;
-    height: 750px;
+    height: 800px;
 }
 
 /*BOTÃO*/
@@ -42,4 +42,19 @@
     transform: rotate(45deg) translate(25px);
    /* transform: translate(25px); */
     z-index: -1;
+}
+
+#menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 1205px){
+    ul#nav-menu-principal{
+        display: none;
+    }
+
+    #menu-icon{
+        display: flex;
+        justify-content: end;
+    }
 }
