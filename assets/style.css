@@ -2,17 +2,18 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.dark-green{
-    color: #486668;
+.font-g{
+    font-size: 4.3rem;
+    line-height: 4.5rem;
 }
 
 #menu-principal{
-    background-color: #EFEAE6;
+    background-color: #486668;
     height: 4.5rem;
 }
 
 #nav-menu-principal > li > a{
-    color: #486668;
+    color: #fff;
 }
 
 #nav-menu-principal > li > a:hover{
@@ -21,28 +22,24 @@
 
 #header{
     background-color: #486668;
-    height: 800px;
+    height: calc(100vh - 72px);
 }
 
 /*BOTÃO*/
 #cta-btn{
-    background-color: #B69493;
-    max-width: 290px;
-    max-height: 70px;
+    background-color: #E26F35;
+    max-width: 270px;
+    height: 50px;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
 }
 
-#square{
-    width: 50px;
-    height: 50px;
-    bottom: -5px;
-    right: 50%;
-    background-color: #486668;
-    transform: rotate(45deg) translate(25px);
-   /* transform: translate(25px); */
-    z-index: -1;
+#cta-btn:hover{
+    background-color: #f06e2d;
+    box-shadow: none;
 }
+
 
 #menu-icon{
     display: none;
@@ -56,5 +53,21 @@
     #menu-icon{
         display: flex;
         justify-content: end;
+    }
+
+    #header{
+        height: 880px;
+    }
+
+    #main-title{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #main-title{
+        font-size: 2.5rem;
+        line-height: 3.0rem;
     }
 }
